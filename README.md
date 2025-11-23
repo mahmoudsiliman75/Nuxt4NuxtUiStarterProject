@@ -64,6 +64,8 @@ Locally preview production build:
 npm run preview
 ```
 
+## Code formatting & linting
+
 Code formatting with (Prettier):
 
 ```bash
