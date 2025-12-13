@@ -26,9 +26,18 @@ This project is built using:
 
 ## Prerequisites
 Before you begin, ensure you have the following installed:
-- Node.js (v24.11.0)
+- Node.js (v24.12.0)
 - npm (v11.6.1)
 - Git
+
+## Important If You Are Using (Windows OS)
+
+```bash
+# First insure that you have nvm installed
+# Second insure that (.nvmrc) file is in the root directory
+# Then run the following command to insure the correct Node.js version
+nvm use $(Get-Content .nvmrc)
+```
 
 ## Setup
 
