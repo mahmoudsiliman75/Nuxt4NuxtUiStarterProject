@@ -11,9 +11,9 @@ export const ButtonUIConfig = {
   },
   compoundVariants: [
     {
-      color: 'brand',
+      color: 'brand-primary',
       variant: 'solid',
-      class: 'bg-[url("@/public/media/shapes/btn_bg_lg.png")] bg-cover bg-no-repeat'
+      class: 'bg-brand-primary-300 dark:bg-brand-primary-dark-300 hover:bg-brand-primary-400 dark:hover:bg-brand-primary-dark-400 text-white'
     },
     {
       color: 'secondary',
