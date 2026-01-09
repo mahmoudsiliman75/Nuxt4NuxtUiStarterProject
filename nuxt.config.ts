@@ -85,6 +85,10 @@ export default defineNuxtConfig({
         'error',
       ],
     },
+    experimental: {
+      // Enable component detection for tree-shaking unused UI components
+      componentDetection: true,
+    },
   },
 
   fonts: {
@@ -129,7 +133,9 @@ export default defineNuxtConfig({
   },
 
   colorMode: {
-    preference: 'light',
+    preference: "light",
+    fallback: "light",
+    disableTransition: true,
   },
 
   image: {
