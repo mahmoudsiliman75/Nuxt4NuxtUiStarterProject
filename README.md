@@ -26,8 +26,8 @@ This project is built using:
 
 ## Prerequisites
 Before you begin, ensure you have the following installed:
-- Node.js (v24.12.0)
-- npm (v11.6.1)
+- Node.js (v24.21.0)
+- npm (v11.19.0)
 - Git
 
 ## Important If You Are Using (Windows OS)
